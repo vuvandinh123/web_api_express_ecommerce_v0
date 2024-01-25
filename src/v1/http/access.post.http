@@ -1,0 +1,22 @@
+@url = http://localhost:8080/v1/api
+# singup 
+# POST {{url}}/shop/login
+# Content-Type: application/json
+# x-api-key:1924246d9d89afe7314d9777ef84853d160f898746714baaf9d5db38a73fc9daf7be293e19190e2fe60a8fa96a3920589b68a79f7b61b2fd7eb17cfecf3dfba4
+
+# {
+#     "email":"vuvandinh203@gmail.com",
+#     "password":"123456"
+# }
+
+POST {{url}}/shop/singup
+Content-Type: application/json
+x-api-key:1924246d9d89afe7314d9777ef84853d160f898746714baaf9d5db38a73fc9daf7be293e19190e2fe60a8fa96a3920589b68a79f7b61b2fd7eb17cfecf3dfba4
+
+{
+    "name":"Shop 2",
+    "email":"vuvandinh2@gmail.com",
+    "password":"123456"
+}
+# dqw
+
